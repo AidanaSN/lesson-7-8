@@ -1,0 +1,47 @@
+@font-face {
+    font-family:'MyFont2';
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+.text {
+    font-family: 'MyFont2';
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text2 {
+    font-family: 'MyFont2';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    font-family: 'MyFont2';
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+    height: 200px;
+    text-align: center;
+}
+
+.txt {
+    font-family: 'MyFont2';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media (max-width:480px){
+    .container {
+        flex-direction: column;
+    }
+}

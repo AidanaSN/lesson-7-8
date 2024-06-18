@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family:'MyFont';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family:'MyFont2';
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+
+.text {
+    font-family: 'MyFont';
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    
+}
+.Body {
+    background-color: black;
+}
+
+@media (max-width:768px){
+    .Body {
+        background-color: white;
+        flex-direction: column;
+    }
+    .text {
+        font-family: 'MyFont2';
+        color: black;
+        font-size: 16px;
+    }
+    
+}
